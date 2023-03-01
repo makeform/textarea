@@ -7,6 +7,7 @@
   "author": "zbryikt",
   "license": "MIT",
   "dependencies": {
-    "@plotdb/srcbuild": "^0.0.51"
+    "@plotdb/srcbuild": "^0.0.51",
+    "fedep": "^1.1.11"
   }
 }
