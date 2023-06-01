@@ -20,6 +20,7 @@ div
         .btn-group.bg-white
           .btn.btn-outline-secondary.btn-sm(t,ld="mode",data-name="edit") edit
           .btn.btn-outline-secondary.btn-sm(t,ld="mode",data-name="preview") preview
+    .m-edit(ld="display",data-display="block"): .text-danger.text-sm.mt-2.note(ld-each="note")
     .m-view.position-relative
       .border.rounded-sm.p-2(ld="content")
   script(type="@plotdb/block"): :lsc
