@@ -1,5 +1,10 @@
 # Change Logs
 
+## v1.0.3
+
+ - tweak ui for markdown
+
+
 ## v1.0.2
 
  - support `note` display
