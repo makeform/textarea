@@ -1,5 +1,11 @@
 # Change Logs
 
+## v1.0.4
+
+ - use `mf-note` to replace styling in note-related tag.
+ - tweak margin
+
+
 ## v1.0.3
 
  - tweak ui for markdown
