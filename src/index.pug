@@ -1,14 +1,7 @@
 div
-  .form-group.has-tips.manual(ld="base error-root",plug="widget")
-    div(ld="display", data-display="block"): label.d-flex.align-items-end.flex-wrap
-      div
-        span(ld="label")
-        .variant.text-sm.ml-2 (#[span(ld="variant")])
-        span.text-danger.ml-2(ld="is-required") *
-      .flex-grow-1
-      .m-edit: .mf-note.text-sm(ld="limitation")
-    .text-sm.text-muted(ld="display", data-display="block"): div(ld="desc", style="margin:-.6em 0 .7em")
-    .m-edit.position-relative
+  script(type="@plotdb/block"): include:lsc index.ls
+  div(plug="body")
+    .m-edit.position-relative.has-tips.manual(ld="error-root")
       textarea.form-control(ld="input",rows="5")
       .hover-tip.tip-sm: div(ld-each="error")
       .position-absolute.d-none.w-100.h-100.bg-white.border.rounded.p-2(ld="preview",
@@ -21,19 +14,5 @@ div
         .btn-group.bg-white
           .btn.btn-outline-secondary.btn-sm(t,ld="mode",data-name="edit") edit
           .btn.btn-outline-secondary.btn-sm(t,ld="mode",data-name="preview") preview
-    .m-edit(ld="display",data-display="block"): .mf-note.text-sm.mt-2.note(ld-each="note")
     .m-view.position-relative
       .border.rounded-sm.p-2(ld="content")
-  script(type="@plotdb/block"): :lsc
-    module.exports =
-      pkg:
-        name: "@makeform/textarea", extend: {name: "@makeform/input", dom: "overwrite"}
-        i18n:
-          en:
-            "啟用 Markdown": "Enable Markdown"
-            edit: "edit"
-            preview: "preview"
-          "zh-TW":
-            "啟用 Markdown": "啟用 Markdown"
-            edit: "編輯"
-            preview: "預覽"
