@@ -3,6 +3,7 @@
 ## v2.0.0 (upcoming)
 
  - tweak DOM based on updated `@makeform/common` DOM structure.
+ - add `remains` info based on input widget update
 
 
 ## v1.0.4
