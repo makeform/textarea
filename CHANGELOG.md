@@ -4,6 +4,7 @@
 
  - tweak DOM based on updated `@makeform/common` DOM structure.
  - add `remains` info based on input widget update
+ - toggle the whole markdown option div based on config to prevent unwanted space below widget
 
 
 ## v1.0.4
