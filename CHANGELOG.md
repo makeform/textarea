@@ -1,5 +1,10 @@
 # Change Logs
 
+## v2.0.1
+
+ - tweak widget layout by moving margin for markdown buttons inside, also making them `my-2` to align with notes
+
+
 ## v2.0.0
 
  - tweak DOM based on updated `@makeform/common` DOM structure.
