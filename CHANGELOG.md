@@ -1,5 +1,10 @@
 # Change Logs
 
+## v3.0.1
+
+ - upgrade dependencies
+
+
 ## v3.0.0
 
  - support `@grantdash/composer` host
